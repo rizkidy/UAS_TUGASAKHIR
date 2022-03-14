@@ -18,17 +18,13 @@ class _homePageState extends State<homePage> {
         centerTitle: true,
         backgroundColor: Colors.white,
         elevation: 0,
-        leading: IconButton(
-            onPressed: () {}, icon: SvgPicture.asset('assets/icons/menu.svg')),
+        leading: IconButton(onPressed: () {}, icon: SvgPicture.asset('assets/icons/menu.svg')),
         title: Text(
           'COVID-19 VIRUS TRACKER',
-          style: TextStyle(
-              fontSize: 16, fontWeight: FontWeight.w900, color: Colors.black),
+          style: TextStyle(fontSize: 16, fontWeight: FontWeight.w900, color: Colors.black),
         ),
         actions: [
-          IconButton(
-              onPressed: () {},
-              icon: SvgPicture.asset('assets/icons/search.svg'))
+          IconButton(onPressed: () {}, icon: SvgPicture.asset('assets/icons/search.svg'))
         ],
       ),
       // drawer:  _buildDrawer(),
@@ -44,11 +40,7 @@ class _homePageState extends State<homePage> {
               color: Color(0xffE4E4E4),
               // borderRadius: BorderRadius.all(Radius.circular(15)),
               boxShadow: [
-                BoxShadow(
-                    color: Colors.black45,
-                    offset: Offset(0, 5),
-                    blurRadius: 5,
-                    spreadRadius: 2),
+                BoxShadow(color: Colors.black45, offset: Offset(0, 5), blurRadius: 5, spreadRadius: 2),
               ],
             ),
             child: Column(
@@ -68,11 +60,7 @@ class _homePageState extends State<homePage> {
                     color: Colors.white,
                     borderRadius: BorderRadius.all(Radius.circular(15)),
                     boxShadow: [
-                      BoxShadow(
-                          color: Colors.lightBlueAccent,
-                          offset: Offset(1, 1),
-                          blurRadius: 2,
-                          spreadRadius: 0),
+                      BoxShadow(color: Colors.lightBlueAccent, offset: Offset(1, 1), blurRadius: 2, spreadRadius: 0),
                     ],
                   ),
                   child: Padding(
@@ -116,8 +104,7 @@ class _homePageState extends State<homePage> {
                                   height: 15,
                                 ),
                                 Container(
-                                  child: SvgPicture.asset(
-                                      'assets/icons/virus.svg'),
+                                  child: SvgPicture.asset('assets/icons/virus.svg'),
                                   height: 28,
                                   width: 28,
                                 ),
@@ -148,8 +135,7 @@ class _homePageState extends State<homePage> {
                                   height: 15,
                                 ),
                                 Container(
-                                  child:
-                                      Image.asset('assets/images/poison.png'),
+                                  child: Image.asset('assets/images/poison.png'),
                                   height: 28,
                                   width: 28,
                                 ),
@@ -182,11 +168,7 @@ class _homePageState extends State<homePage> {
                     color: Colors.white,
                     borderRadius: BorderRadius.all(Radius.circular(15)),
                     boxShadow: [
-                      BoxShadow(
-                          color: Colors.blue,
-                          offset: Offset(1, 1),
-                          blurRadius: 3,
-                          spreadRadius: 0),
+                      BoxShadow(color: Colors.blue, offset: Offset(1, 1), blurRadius: 3, spreadRadius: 0),
                     ],
                   ),
                   child: Stack(
@@ -203,8 +185,7 @@ class _homePageState extends State<homePage> {
                               //     colors: [Colors.purple, Colors.red],
                               //     begin: Alignment.topLeft,
                               //     end: Alignment.bottomRight),
-                              borderRadius:
-                                  BorderRadius.all(Radius.circular(20))),
+                              borderRadius: BorderRadius.all(Radius.circular(20))),
                           child: Material(
                             color: Colors.transparent,
                             borderRadius: BorderRadius.circular(20),
@@ -214,10 +195,10 @@ class _homePageState extends State<homePage> {
                                 child: Row(
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
-                                    Text('See More',
-                                        style: TextStyle(
-                                            fontSize: 7, color: Colors.black)),
-                                    Image.asset('assets/images/arrow2.png')
+                                    Text(
+                                      'See More',
+                                      style: TextStyle(fontSize: 7, color: Colors.black),
+                                    ),
                                   ],
                                 ),
                               ),
@@ -233,8 +214,7 @@ class _homePageState extends State<homePage> {
                           ),
                           Text(
                             'Corona Virus Measures To Take',
-                            style: TextStyle(
-                                fontSize: 20, fontWeight: FontWeight.bold),
+                            style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                           ),
                           Spacer(
                             flex: 1,
@@ -268,8 +248,7 @@ class _homePageState extends State<homePage> {
                                   ),
                                   decoration: BoxDecoration(
                                     color: Colors.grey,
-                                    borderRadius:
-                                        BorderRadius.all(Radius.circular(15)),
+                                    borderRadius: BorderRadius.all(Radius.circular(15)),
                                   ),
                                 ),
                                 Spacer(
@@ -281,9 +260,7 @@ class _homePageState extends State<homePage> {
                                   children: [
                                     Text(
                                       'Wear a facemask',
-                                      style: TextStyle(
-                                          fontSize: 14,
-                                          fontWeight: FontWeight.bold),
+                                      style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
                                     ),
                                     SizedBox(
                                       height: 10,
@@ -339,8 +316,7 @@ class _homePageState extends State<homePage> {
                     Spacer(flex: 2),
                     Text(
                       'Italy',
-                      style:
-                          TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                      style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                     ),
                     Spacer(
                       flex: 10,
