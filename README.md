@@ -20,3 +20,8 @@ Kelompok 4 :
 - M. Farid Mustakim
 - M. Ilham Rosidi 
 - Rizki Dwi Yulianto
+
+![homePage](https://user-images.githubusercontent.com/100393978/158104161-b481f465-ada6-4341-abbe-ea42cdd3ee11.png)
+![newsPage](https://user-images.githubusercontent.com/100393978/158104167-68611f9c-03a7-4dbf-bf11-a802e8d19a31.png)
+![sideBar](https://user-images.githubusercontent.com/100393978/158104168-30ebb5a8-cb9d-449c-b4cc-ed4e08434dd5.png)
+![splashScreen](https://user-images.githubusercontent.com/100393978/158104172-bc9c3f0a-d7f8-4e12-a514-4bd436dd4067.png)
