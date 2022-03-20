@@ -2,7 +2,6 @@ import 'package:corona/Page/homePage.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'Page/newsPage.dart';
-import 'Page/homePage.dart';
 import 'sidebar.dart';
 
 class menu extends StatefulWidget {
@@ -14,7 +13,7 @@ class _menuState extends State<menu> {
   int selectedNavbar = 0;
 
   List layoutPage = [
-    homePage()(),
+    homePage(),
     newsPage(),
     Text('Kosong'),
     Text('Kosong')
@@ -97,11 +96,6 @@ class _menuState extends State<menu> {
         currentIndex: selectedNavbar,
         items: [
           BottomNavigationBarItem(
-            // icon: IconButton(
-            //   onPressed: () {
-            //     MaterialPageRoute(
-            //         builder: (BuildContext context) => homePage());
-            //   },
             icon: SvgPicture.asset('assets/icons/home.svg'),
             // ),
             title: Text(
@@ -111,36 +105,20 @@ class _menuState extends State<menu> {
           ),
           BottomNavigationBarItem(
             icon: SvgPicture.asset('assets/icons/news.svg'),
-            // IconButton(
-            //   onPressed: () {},
-            //   // {
-            //   //   MaterialPageRoute(
-            //   //       builder: (BuildContext context) => newsPage());
-            //   // },
-            //   icon: SvgPicture.asset('assets/icons/news.svg'),
-            // ),
             title: Text(
               'NEWS',
               style: TextStyle(color: Colors.black, fontWeight: FontWeight.w900),
             ),
           ),
           BottomNavigationBarItem(
-            // icon: IconButton(
-            //   onPressed: () {
-            //     MaterialPageRoute(builder: (BuildContext context) => p());
-            //   },
             icon: Image.asset('assets/images/Group.png'),
-            // ),
             title: Text(
               'GROUP',
               style: TextStyle(color: Colors.black, fontWeight: FontWeight.w900),
             ),
           ),
           BottomNavigationBarItem(
-            // icon: IconButton(
-            //   onPressed: () {},
             icon: SvgPicture.asset('assets/icons/user.svg'),
-            // ),
             title: Text(
               'USER',
               style: TextStyle(color: Colors.black, fontWeight: FontWeight.w900),
